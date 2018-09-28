@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2015 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<!-- Contextual Search search term view. -->
+<FrameLayout android:id="@+id/contextual_search_term_view" style="@style/ContextualSearchTextViewLayout" xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    
+  <TextView android:background="#FFF" android:id="@+id/contextual_search_term" android:layout_gravity="bottom" android:layout_marginLeft="7dp" android:layout_marginRight="7dp" android:layout_width="match_parent" style="@style/ContextualSearchTextView"/>
+  
+
+</FrameLayout>

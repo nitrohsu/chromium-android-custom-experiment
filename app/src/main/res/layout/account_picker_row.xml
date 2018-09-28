@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2018 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<LinearLayout android:gravity="center_vertical" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:padding="8dp" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  
+    
+  <ImageView android:id="@+id/account_image" android:layout_height="40dp" android:layout_marginRight="16dp" android:layout_width="40dp" tools:ignore="ContentDescription" tools:src="@drawable/logo_avatar_anonymous"/>
+  
+    
+  <LinearLayout android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+    
+        
+    <TextView android:gravity="center_vertical" android:id="@+id/account_text_primary" android:layout_height="wrap_content" android:layout_width="match_parent" android:minHeight="20dp" android:textAppearance="@style/BlackBodyDefault" tools:text="John Doe"/>
+    
+        
+    <TextView android:gravity="center_vertical" android:id="@+id/account_text_secondary" android:layout_height="wrap_content" android:layout_width="match_parent" android:minHeight="20dp" android:textAppearance="@style/BlackCaption" tools:text="john.doe@example.com"/>
+    
+    
+  </LinearLayout>
+  
+    
+  <ImageView android:id="@+id/account_selection_mark" android:layout_height="24dp" android:layout_marginLeft="16dp" android:layout_width="24dp" android:src="@drawable/ic_check_googblue_24dp" tools:ignore="ContentDescription"/>
+  
+
+</LinearLayout>

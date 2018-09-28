@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Continuă"</string>
+<string name="search_or_type_web_address">"Caută sau introdu adresa web"</string>
+<string name="options_homepage_title">"Pagina de pornire"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome Sync"</string>
+<string name="sync_confirmation_chrome_sync_message">"Marcajele, istoricul, parolele și alte setări vor fi sincronizate cu Contul Google, pentru a le putea folosi pe toate dispozitivele"</string>
+<string name="sync_confirmation_personalize_services_title">"Personalizează serviciile Google"</string>
+<string name="sync_confirmation_personalize_services_body">"Google poate folosi istoricul de navigare pentru a personaliza Căutarea, anunțurile și alte servicii Google"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google poate folosi istoricul de navigare pentru a personaliza Căutarea și alte servicii Google"</string>
+<string name="external_app_leave_incognito_warning">"Site-ul este pe cale să permită accesul la informații unei aplicații în afara modului incognito."</string>
+<string name="external_app_leave_incognito_warning_title">"Ieși din modul incognito?"</string>
+<string name="external_app_leave_incognito_stay">"Rămâi pe pagină"</string>
+<string name="external_app_leave_incognito_leave">"Ieși"</string>
+<string name="external_app_restricted_access_error">"Chrome nu are acces la resursa solicitată."</string>
+<string name="blocked_ads_prompt_title">"Anunțurile au fost blocate"</string>
+<string name="video_call_notification_text_2">"Se accesează intrarea video"</string>
+<string name="audio_call_notification_text_2">"Se accesează intrarea audio"</string>
+<string name="video_audio_call_notification_text_2">"Se accesează intrările audio și video"</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<!-- Represents the suggested offline pages section header in the DownloadHistoryAdapter. -->
+<view android:layout_height="wrap_content" android:layout_width="wrap_content" class="org.chromium.chrome.browser.download.ui.OfflineGroupHeaderView" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+  
+
+    
+  <LinearLayout android:id="@+id/layout_container" style="@style/ListItemContainer">
+    
+
+        
+    <org.chromium.chrome.browser.widget.TintedImageView android:id="@+id/icon_view" android:src="@drawable/ic_chrome" app:chrometint="@color/dark_mode_tint" style="@style/DownloadIconView"/>
+    
+
+        
+    <RelativeLayout android:id="@+id/completed_layout" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp">
+      
+
+            
+      <LinearLayout android:id="@+id/filename_row" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+        
+
+                
+        <TextView android:id="@+id/title" android:layout_weight="1" android:text="@string/download_manager_offline_header_title" style="@style/DownloadTitleStyle"/>
+        
+
+                
+        <!-- TODO(shaktisahu) : Add it back on when UX is determined. -->
+        
+                
+        <TextView android:id="@+id/new_badge" android:layout_weight="0" android:visibility="gone" style="@style/DownloadNewBadgeStyle"/>
+        
+
+                
+        <ImageView android:id="@+id/expand_icon" android:layout_gravity="center_vertical|end" android:layout_height="wrap_content" android:layout_weight="0" android:layout_width="wrap_content" android:paddingRight="16dp" android:src="@drawable/ic_expand_more_black_24dp" tools:ignore="ContentDescription"/>
+        
+            
+      </LinearLayout>
+      
+
+            
+      <TextView android:id="@+id/description" android:layout_below="@+id/filename_row" android:text="@string/download_manager_offline_header_description" style="@style/DownloadDescriptionStyle"/>
+      
+        
+    </RelativeLayout>
+    
+    
+  </LinearLayout>
+  
+
+</view>

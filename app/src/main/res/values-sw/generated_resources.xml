@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Endelea"</string>
+<string name="search_or_type_web_address">"Tafuta au andika anwani ya wavuti"</string>
+<string name="options_homepage_title">"Ukurasa wa Kwanza"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Usawazishaji wa Chrome"</string>
+<string name="sync_confirmation_chrome_sync_message">"Alamisho, historia, manenosiri na mipangilio yako mingine itasawazishwa kwenye Akaunti yako ya Google ili uitumie katika vifaa vyako vyote"</string>
+<string name="sync_confirmation_personalize_services_title">"Badilisha huduma za Google zikufae"</string>
+<string name="sync_confirmation_personalize_services_body">"Google inaweza kutumia historia ya jinsi unavyovinjari ili kuweka mapendeleo kwenye huduma ya Tafuta na Google, matangazo na huduma nyingine za Google"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google inaweza kutumia historia yako ya mambo uliyovinjari kuweka mapendeleo ya huduma za Tafuta na huduma nyingine za Google."</string>
+<string name="external_app_leave_incognito_warning">"Tovuti hii inakaribia kushiriki maelezo na programu nyingine isiyo katika hali fiche."</string>
+<string name="external_app_leave_incognito_warning_title">"Ungependa kuondoka kwenye hali fiche?"</string>
+<string name="external_app_leave_incognito_stay">"Usiondoke"</string>
+<string name="external_app_leave_incognito_leave">"Ondoka"</string>
+<string name="external_app_restricted_access_error">"Chrome haina idhini ya kufikia rasilimali uliyoomba."</string>
+<string name="blocked_ads_prompt_title">"Matangazo yamezuiwa"</string>
+<string name="video_call_notification_text_2">"Inafikia vifaa vya kuingiza sauti ya video"</string>
+<string name="audio_call_notification_text_2">"Inafikia vifaa vya kuingiza sauti"</string>
+<string name="video_audio_call_notification_text_2">"Inafikia vifaa vya kuingiza sauti na video"</string>
+</resources>

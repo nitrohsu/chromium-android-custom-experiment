@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2018 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<LinearLayout android:gravity="center_vertical" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:paddingLeft="@dimen/snippets_padding" android:paddingRight="@dimen/snippets_padding" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+  
+
+    
+  <TextView android:id="@+id/header_title" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" android:textAlignment="viewStart" android:textAppearance="@style/BlackCaption"/>
+  
+
+    
+  <org.chromium.chrome.browser.widget.TintedImageView android:id="@+id/header_icon" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_width="wrap_content" android:visibility="gone" app:chrometint="@color/dark_mode_tint"/>
+  
+
+</LinearLayout>

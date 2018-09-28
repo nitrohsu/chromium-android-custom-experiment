@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2018 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file.
+-->
+<android.support.v7.widget.GridLayout android:background="@android:color/white" android:clickable="true" android:layout_height="wrap_content" android:layout_width="match_parent" android:minHeight="64dp" app:columnCount="3" app:rowCount="2" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+  
+    
+  <org.chromium.chrome.browser.widget.TintedImageView android:id="@+id/thumbnail" android:layout_height="@dimen/download_manager_generic_thumbnail_size" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_width="@dimen/download_manager_generic_thumbnail_size" android:scaleType="center" app:chrometint="@color/dark_mode_tint" app:layout_column="0" app:layout_gravity="center_vertical" app:layout_row="0" app:layout_rowSpan="2"/>
+  
+
+    
+  <TextView android:ellipsize="end" android:id="@+id/title" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:layout_width="0dp" android:maxLines="1" android:textAlignment="viewStart" android:textAppearance="@style/BlackTitle1" app:layout_column="1" app:layout_gravity="fill_horizontal" app:layout_row="0"/>
+  
+    
+  <TextView android:ellipsize="end" android:id="@+id/caption" android:layout_height="wrap_content" android:layout_width="0dp" android:maxLines="1" android:textAlignment="viewStart" android:textAppearance="@style/BlackHint2" app:layout_column="1" app:layout_gravity="fill_horizontal" app:layout_row="1"/>
+  
+
+    
+  <include android:layout_height="48dp" android:layout_width="48dp" app:layout_column="2" app:layout_gravity="center_vertical" app:layout_row="0" app:layout_rowSpan="2" layout="@layout/list_menu_button"/>
+  
+
+
+</android.support.v7.widget.GridLayout>

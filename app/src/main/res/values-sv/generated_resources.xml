@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Fortsätt"</string>
+<string name="search_or_type_web_address">"Skriv en sökning eller en webbadress"</string>
+<string name="options_homepage_title">"Startsida"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Synkronisera med Chrome"</string>
+<string name="sync_confirmation_chrome_sync_message">"Bokmärken, historik, lösenord och andra inställningar synkroniseras med ditt Google-konto så att du kan använda dem på alla enheter."</string>
+<string name="sync_confirmation_personalize_services_title">"Anpassa Googles tjänster"</string>
+<string name="sync_confirmation_personalize_services_body">"Google kan anpassa Sök, annonser och andra Google-tjänster utifrån webbhistoriken."</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google kan använda webbhistoriken för att anpassa Sök och andra tjänster från Google."</string>
+<string name="external_app_leave_incognito_warning">"Data på den här webbplatsen delas med en app utanför inkognitoläget."</string>
+<string name="external_app_leave_incognito_warning_title">"Inaktivera inkognitoläget?"</string>
+<string name="external_app_leave_incognito_stay">"Stanna kvar"</string>
+<string name="external_app_leave_incognito_leave">"Lämna"</string>
+<string name="external_app_restricted_access_error">"Chrome har inte tillgång till den begärda resursen."</string>
+<string name="blocked_ads_prompt_title">"Annonser blockeras"</string>
+<string name="video_call_notification_text_2">"Får åtkomst till videoindata"</string>
+<string name="audio_call_notification_text_2">"Får åtkomst till ljudindata"</string>
+<string name="video_audio_call_notification_text_2">"Får åtkomst till ljud- och videoindata"</string>
+</resources>

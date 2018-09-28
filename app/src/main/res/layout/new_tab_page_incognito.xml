@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2015 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<org.chromium.chrome.browser.ntp.IncognitoNewTabPageView android:id="@+id/ntp_content" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  
+
+    
+  <org.chromium.chrome.browser.ntp.NewTabPageScrollView android:background="@color/ntp_bg_incognito" android:contentDescription="@string/accessibility_new_incognito_tab_page" android:fadingEdgeLength="9dp" android:fillViewport="false" android:focusable="true" android:focusableInTouchMode="true" android:id="@+id/ntp_scrollview" android:layout_height="match_parent" android:layout_width="match_parent" android:requiresFadingEdge="vertical">
+    
+
+        
+    <LinearLayout android:gravity="center_horizontal" android:id="@+id/new_tab_incognito_container" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:paddingBottom="16dp" android:paddingLeft="32dp" android:paddingRight="32dp" android:paddingTop="24dp">
+      
+
+            
+      <ImageView android:id="@+id/new_tab_incognito_icon" android:layout_height="wrap_content" android:layout_marginBottom="19dp" android:layout_width="wrap_content" android:src="@drawable/incognito_splash" tools:ignore="ContentDescription"/>
+      
+
+            
+      <TextView android:fontFamily="sans-serif-light" android:id="@+id/ntp_incognito_header" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/new_tab_incognito_header" android:textAppearance="@style/WhiteHeadlineIncognito"/>
+      
+
+            
+      <TextView android:id="@+id/new_tab_incognito_message" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginTop="32dp" android:layout_width="wrap_content" android:text="@null" style="@style/IncognitoNewTabMessage"/>
+      
+
+            
+      <TextView android:id="@+id/learn_more" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/learn_more" style="@style/IncognitoNewTabLearnMoreLink"/>
+      
+
+        
+    </LinearLayout>
+    
+
+    
+  </org.chromium.chrome.browser.ntp.NewTabPageScrollView>
+  
+
+
+</org.chromium.chrome.browser.ntp.IncognitoNewTabPageView>

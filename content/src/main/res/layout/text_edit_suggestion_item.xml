@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<TextView android:drawablePadding="8dp" android:fontFamily="sans-serif" android:gravity="start|center_vertical" android:layout_gravity="start|center_vertical" android:layout_height="@dimen/text_edit_suggestion_item_layout_height" android:layout_width="match_parent" android:paddingBottom="8dp" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingTop="8dp" android:singleLine="true" android:textColor="?android:attr/textColorPrimary" android:textSize="14sp" xmlns:android="http://schemas.android.com/apk/res/android"/>

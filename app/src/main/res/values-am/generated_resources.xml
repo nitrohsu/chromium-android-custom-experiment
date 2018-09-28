@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"ቀጥል"</string>
+<string name="search_or_type_web_address">"የድር አድራሻ ይፈልጉ ወይም ይተይቡ"</string>
+<string name="options_homepage_title">"መነሻ ገጽ"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome ሥምረት"</string>
+<string name="sync_confirmation_chrome_sync_message">"የእርስዎን ዕልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ሌሎች ቅንብሮች በሁሉም መሣሪያዎችዎ ላይ መጠቀም እንዲችሉ ከGoogle መለያዎ ጋር ይሰምራሉ"</string>
+<string name="sync_confirmation_personalize_services_title">"የGoogle አገልግሎቶችን ግላዊነት አላብስ"</string>
+<string name="sync_confirmation_personalize_services_body">"Google ፍለጋን፣ ማስታወቂያዎችን እና ሌሎች የGoogle አገልግሎቶችን ግላዊነት ለማላበስ ሲል የአሰሳ ታሪክዎን ሊጠቀም ይችላል።"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google ፍለጋን እና ሌሎች የGoogle አገልግሎቶችን ግላዊነት ለማላበስ የአሰሳ ታሪክዎን ሊጠቀም ይችላል"</string>
+<string name="external_app_leave_incognito_warning">"ይህ ጣቢያ ማንነት ከማያሳውቅ ሁነታ ውጭ ላለ መተግበሪያ መረጃ ሊያጋራ ነው።"</string>
+<string name="external_app_leave_incognito_warning_title">"ከማንነት የማያሳውቅ ሁነታ ይውጣ?"</string>
+<string name="external_app_leave_incognito_stay">"ቆይ"</string>
+<string name="external_app_leave_incognito_leave">"ለቅቀህ ውጣ"</string>
+<string name="external_app_restricted_access_error">"Chrome የተጠየቀው ግብዓት መዳረሻ የለውም።"</string>
+<string name="blocked_ads_prompt_title">"ማስታወቂያዎች ታግደዋል"</string>
+<string name="video_call_notification_text_2">"የቪዲዮ ግብዓትን በመድረስ ላይ"</string>
+<string name="audio_call_notification_text_2">"የኦዲዮ ግብዓትን በመድረስ ላይ"</string>
+<string name="video_audio_call_notification_text_2">"የኦዲዮ እና የቪዲዮ ግብዓትን በመድረስ ላይ"</string>
+</resources>

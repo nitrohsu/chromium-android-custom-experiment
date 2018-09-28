@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Folytatás"</string>
+<string name="search_or_type_web_address">"Keressen, vagy írjon be internetcímet"</string>
+<string name="options_homepage_title">"Kezdőoldal"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome - szinkronizálás"</string>
+<string name="sync_confirmation_chrome_sync_message">"A böngésző szinkronizálni fogja a könyvjelzőket, az előzményeket, a jelszavakat és az egyéb beállításokat Google-fiókjával, hogy bármelyik eszközén hozzájuk férjen."</string>
+<string name="sync_confirmation_personalize_services_title">"A Google-szolgáltatások személyre szabása"</string>
+<string name="sync_confirmation_personalize_services_body">"A Google felhasználhatja az Ön böngészési előzményeit a Keresés, a hirdetések és más Google-szolgáltatások személyre szabására"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"A Google felhasználhatja a böngészési előzményeket a Keresés és más Google-szolgáltatások személyre szabására."</string>
+<string name="external_app_leave_incognito_warning">"A webhely adatokat kíván megosztani az inkognitómódon kívüli alkalmazással."</string>
+<string name="external_app_leave_incognito_warning_title">"Kilép az inkognitómódból?"</string>
+<string name="external_app_leave_incognito_stay">"Mégse"</string>
+<string name="external_app_leave_incognito_leave">"Lap elhagyása"</string>
+<string name="external_app_restricted_access_error">"A Chrome nem fér hozzá a kért forráshoz."</string>
+<string name="blocked_ads_prompt_title">"Hirdetések letiltva"</string>
+<string name="video_call_notification_text_2">"Hozzáférés videobemenethez"</string>
+<string name="audio_call_notification_text_2">"Hozzáférés a hangbemenethez"</string>
+<string name="video_audio_call_notification_text_2">"Hozzáférés a hang- és videobementhez"</string>
+</resources>

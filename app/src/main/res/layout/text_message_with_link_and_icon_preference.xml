@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<!-- Layout used by the TextMessageWithLinkAndIconPreference. -->
+<RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="24dp" style="@style/PreferenceLayout" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  
+
+    
+  <ImageView android:id="@android:id/icon" android:layout_gravity="top" android:layout_height="wrap_content" android:layout_width="wrap_content" tools:ignore="ContentDescription"/>
+  
+
+    
+  <org.chromium.ui.widget.TextViewWithClickableSpans android:id="@android:id/title" android:layout_alignTop="@android:id/icon" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_toRightOf="@android:id/icon" android:layout_width="wrap_content" style="@style/PreferenceTitle"/>
+  
+
+    
+  <org.chromium.ui.widget.TextViewWithClickableSpans android:id="@android:id/summary" android:layout_below="@android:id/title" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_toRightOf="@android:id/icon" android:layout_width="wrap_content" style="@style/PreferenceSummary"/>
+  
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2018 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<LinearLayout android:baselineAligned="false" android:gravity="center" android:id="@+id/shortcuts" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+  
+
+    
+  <FrameLayout android:background="?attr/selectableItemBackground" android:id="@+id/bookmarks_button" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" android:minHeight="48dp" android:paddingBottom="4dp" android:paddingTop="4dp">
+    
+
+        
+    <org.chromium.chrome.browser.widget.TextViewWithCompoundDrawables android:drawableLeft="@drawable/btn_star_filled" android:drawablePadding="8dp" android:gravity="center" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/menu_bookmarks" android:textAppearance="@style/BlackCaption" app:chromeDrawableTint="@color/black_alpha_54" app:drawableHeight="20sp" app:drawableWidth="20sp"/>
+    
+    
+  </FrameLayout>
+  
+
+    
+  <FrameLayout android:background="?attr/selectableItemBackground" android:id="@+id/downloads_button" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" android:minHeight="48dp" android:paddingBottom="4dp" android:paddingTop="4dp">
+    
+
+        
+    <org.chromium.chrome.browser.widget.TextViewWithCompoundDrawables android:drawableLeft="@drawable/ic_file_download_white_24dp" android:drawablePadding="8dp" android:gravity="center" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/menu_downloads" android:textAppearance="@style/BlackCaption" app:chromeDrawableTint="@color/black_alpha_54" app:drawableHeight="20sp" app:drawableWidth="20sp"/>
+    
+    
+  </FrameLayout>
+  
+
+</LinearLayout>

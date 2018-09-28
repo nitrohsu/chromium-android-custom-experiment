@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Pokračovat"</string>
+<string name="search_or_type_web_address">"Zadejte dotaz nebo webovou adresu"</string>
+<string name="options_homepage_title">"Domovská stránka"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome Sync"</string>
+<string name="sync_confirmation_chrome_sync_message">"Vaše záložky, historie, hesla a další nastavení budou synchronizována do účtu Google, abyste je mohli používat ve všech svých zařízeních."</string>
+<string name="sync_confirmation_personalize_services_title">"Přizpůsobení služeb Google"</string>
+<string name="sync_confirmation_personalize_services_body">"Google vaši historii procházení může používat k personalizaci Vyhledávání, reklam a dalších služeb Google"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google vaši historii procházení může používat k přizpůsobení Vyhledávání a dalších služeb Google."</string>
+<string name="external_app_leave_incognito_warning">"Tento web chce sdílet informace s aplikací mimo anonymní režim."</string>
+<string name="external_app_leave_incognito_warning_title">"Ukončit anonymní režim?"</string>
+<string name="external_app_leave_incognito_stay">"Zůstat"</string>
+<string name="external_app_leave_incognito_leave">"Odejít"</string>
+<string name="external_app_restricted_access_error">"Chrome k požadovanému zdroji nemá přístup."</string>
+<string name="blocked_ads_prompt_title">"Byly zablokovány reklamy"</string>
+<string name="video_call_notification_text_2">"Přístup k vstupu videa"</string>
+<string name="audio_call_notification_text_2">"Přístup ke zvukovému vstupu"</string>
+<string name="video_audio_call_notification_text_2">"Přístup ke vstupu zvuku a videa"</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"המשך"</string>
+<string name="search_or_type_web_address">"יש להזין ביטוי לחיפוש או כתובת אינטרנט"</string>
+<string name="options_homepage_title">"דף הבית"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome Sync"</string>
+<string name="sync_confirmation_chrome_sync_message">"‏הסימניות, ההיסטוריה, הסיסמאות והגדרות נוספות יסונכרנו עם חשבון Google, כך שתוכל להשתמש בהם בכל המכשירים שלך."</string>
+<string name="sync_confirmation_personalize_services_title">"‏התאמה אישית של שירותי Google"</string>
+<string name="sync_confirmation_personalize_services_body">"‏חברת Google עשויה להשתמש בהיסטוריית הגלישה שלך לצורך התאמה אישית של חיפוש Google, מודעות Google ושירותי Google אחרים"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"‏Google עשויה להשתמש בהיסטוריית הגלישה שלך כדי להתאים אישית את החיפוש ושירותים אחרים של Google"</string>
+<string name="external_app_leave_incognito_warning">"אתר זה עומד לשתף מידע עם אפליקציה מחוץ למצב גלישה בסתר."</string>
+<string name="external_app_leave_incognito_warning_title">"לצאת ממצב גלישה בסתר?"</string>
+<string name="external_app_leave_incognito_stay">"הישאר"</string>
+<string name="external_app_leave_incognito_leave">"יציאה"</string>
+<string name="external_app_restricted_access_error">"‏ל-Chrome אין גישה למשאב המבוקש."</string>
+<string name="blocked_ads_prompt_title">"מודעות חסומות"</string>
+<string name="video_call_notification_text_2">"גישה לפלט אודיו"</string>
+<string name="audio_call_notification_text_2">"גישה לקלט אודיו"</string>
+<string name="video_audio_call_notification_text_2">"גישה לקלט אודיו ווידאו"</string>
+</resources>

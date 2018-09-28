@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:paddingBottom="8dp" xmlns:android="http://schemas.android.com/apk/res/android">
+  
+
+        
+  <Button android:gravity="center_vertical|start" android:id="@+id/clear_browsing_data_button" android:layout_gravity="top" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="16dp" android:paddingLeft="@dimen/list_item_default_margin" android:paddingRight="@dimen/list_item_default_margin" android:paddingTop="16dp" android:text="@string/open_clear_browsing_data_dialog_button" android:textAllCaps="true" android:textColor="@color/blue_when_enabled" android:textSize="@dimen/text_size_medium" style="@style/ButtonCompatBorderless"/>
+  
+
+        
+  <View style="@style/Divider"/>
+  
+
+
+</LinearLayout>

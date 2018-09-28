@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Lanjut"</string>
+<string name="search_or_type_web_address">"Telusuri atau ketik alamat web"</string>
+<string name="options_homepage_title">"Beranda"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Sinkronisasi Chrome"</string>
+<string name="sync_confirmation_chrome_sync_message">"Bookmark, histori, sandi, dan setelan lainnya akan disinkronkan ke Akun Google agar Anda dapat menggunakannya di semua perangkat"</string>
+<string name="sync_confirmation_personalize_services_title">"Personalisasi layanan Google"</string>
+<string name="sync_confirmation_personalize_services_body">"Google dapat menggunakan histori penjelajahan Anda untuk mempersonalisasi Penelusuran, iklan, dan layanan Google lainnya"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google dapat menggunakan histori penjelajahan Anda untuk mempersonalisasi Penelusuran dan layanan Google lainnya"</string>
+<string name="external_app_leave_incognito_warning">"Situs ini akan membagikan informasi dengan aplikasi di luar mode penyamaran."</string>
+<string name="external_app_leave_incognito_warning_title">"Keluar dari mode penyamaran?"</string>
+<string name="external_app_leave_incognito_stay">"Tinggal"</string>
+<string name="external_app_leave_incognito_leave">"Keluar"</string>
+<string name="external_app_restricted_access_error">"Chrome tidak memiliki akses ke sumber daya yang diminta."</string>
+<string name="blocked_ads_prompt_title">"Iklan diblokir"</string>
+<string name="video_call_notification_text_2">"Mengakses masukan video"</string>
+<string name="audio_call_notification_text_2">"Mengakses masukan audio"</string>
+<string name="video_audio_call_notification_text_2">"Mengakses masukan audio dan video"</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2018 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file.
+-->
+<TextView android:gravity="start|center_vertical" android:layout_height="wrap_content" android:layout_width="match_parent" android:maxLines="1" android:paddingBottom="4dp" android:paddingLeft="12dp" android:paddingTop="4dp" android:textAlignment="viewStart" android:textAppearance="@style/BlackTitle2" xmlns:android="http://schemas.android.com/apk/res/android"/>

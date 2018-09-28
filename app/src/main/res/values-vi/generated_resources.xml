@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Tiếp tục"</string>
+<string name="search_or_type_web_address">"Tìm kiếm hoặc nhập địa chỉ web"</string>
+<string name="options_homepage_title">"Trang chủ"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome Sync"</string>
+<string name="sync_confirmation_chrome_sync_message">"Dấu trang, lịch sử, mật khẩu và các cài đặt khác sẽ được đồng bộ hóa với Tài khoản Google của bạn để bạn có thể sử dụng chúng trên tất cả thiết bị của mình."</string>
+<string name="sync_confirmation_personalize_services_title">"Cá nhân hóa dịch vụ của Google"</string>
+<string name="sync_confirmation_personalize_services_body">"Google có thể sử dụng lịch sử duyệt web của bạn để cá nhân hóa Tìm kiếm, quảng cáo và các dịch vụ khác của Google"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google có thể sử dụng lịch sử duyệt web của bạn để cá nhân hóa Tìm kiếm và các dịch vụ khác của Google."</string>
+<string name="external_app_leave_incognito_warning">"Trang web này sắp chia sẻ thông tin với một ứng dụng bên ngoài chế độ ẩn danh."</string>
+<string name="external_app_leave_incognito_warning_title">"Thoát chế độ ẩn danh?"</string>
+<string name="external_app_leave_incognito_stay">"Ở lại"</string>
+<string name="external_app_leave_incognito_leave">"Rời khỏi"</string>
+<string name="external_app_restricted_access_error">"Chrome không có quyền truy cập vào tài nguyên đã yêu cầu."</string>
+<string name="blocked_ads_prompt_title">"Đã chặn quảng cáo"</string>
+<string name="video_call_notification_text_2">"Đang truy cập thiết bị đầu vào video"</string>
+<string name="audio_call_notification_text_2">"Đang truy cập thiết bị đầu vào âm thanh"</string>
+<string name="video_audio_call_notification_text_2">"Đang truy cập thiết bị đầu vào video và âm thanh"</string>
+</resources>

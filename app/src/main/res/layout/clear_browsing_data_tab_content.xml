@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<!-- Used by ClearBrowsingDataPreferences to replace the default layout
+     of a PreferenceFragment and add a footer button. -->
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+  
+
+    
+  <ListView android:id="@android:id/list" android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent"/>
+  
+
+    
+  <Button android:focusable="true" android:id="@+id/clear_button" android:layout_gravity="end" android:layout_height="wrap_content" android:layout_marginRight="@dimen/clear_browsing_data_button_margin" android:layout_width="wrap_content" android:minHeight="48dp" android:padding="8dp" android:text="@string/clear_data_delete" style="?android:attr/buttonBarButtonStyle"/>
+  
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<org.chromium.chrome.browser.signin.PersonalizedSigninPromoView android:gravity="center_horizontal" android:id="@+id/signin_promo_view_container" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_width="match_parent" android:orientation="vertical" android:paddingBottom="12dp" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingTop="12dp" style="@style/SuggestionCardModern" xmlns:android="http://schemas.android.com/apk/res/android">
+  
+
+    
+  <FrameLayout android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_width="match_parent">
+    
+
+        
+    <include layout="@layout/personalized_signin_promo_view_header"/>
+    
+    
+  </FrameLayout>
+  
+
+    
+  <include layout="@layout/personalized_signin_promo_view_body"/>
+  
+
+
+</org.chromium.chrome.browser.signin.PersonalizedSigninPromoView>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2018 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<LinearLayout android:baselineAligned="false" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:padding="10dp" style="@style/ListItemContainer" xmlns:android="http://schemas.android.com/apk/res/android">
+  
+
+    
+  <android.widget.RadioButton android:id="@+id/radio_button" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="6dp" android:layout_width="wrap_content"/>
+  
+
+    
+  <LinearLayout android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+    
+        
+    <TextView android:ellipsize="end" android:id="@+id/title" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_width="match_parent" android:maxLines="1" android:textAppearance="@style/BlackTitle1"/>
+    
+        
+    <TextView android:ellipsize="end" android:id="@+id/description" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_width="match_parent" android:maxLines="1" android:textAppearance="@style/BlackBody"/>
+    
+    
+  </LinearLayout>
+  
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Jatka"</string>
+<string name="search_or_type_web_address">"Hae tai kirjoita verkko-osoite"</string>
+<string name="options_homepage_title">"Etusivu"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chromen synkronointi"</string>
+<string name="sync_confirmation_chrome_sync_message">"Kirjanmerkkisi, historiasi, salasanasi ja muut asetuksesi synkronoidaan Google-tilillesi, jotta voit käyttää niitä kaikilla laitteillasi."</string>
+<string name="sync_confirmation_personalize_services_title">"Muokkaa Google-palveluita"</string>
+<string name="sync_confirmation_personalize_services_body">"Google voi muokata hakua, mainoksia ja muita Googlen palveluita selaushistoriasi perusteella."</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google voi muokata hakua ja muita Googlen palveluita selaushistoriasi perusteella."</string>
+<string name="external_app_leave_incognito_warning">"Tämä sivusto aikoo jakaa tietoja sovellukselle incognito-tilan ulkopuolella."</string>
+<string name="external_app_leave_incognito_warning_title">"Poistutaanko incognito-tilasta?"</string>
+<string name="external_app_leave_incognito_stay">"Jää"</string>
+<string name="external_app_leave_incognito_leave">"Poistu"</string>
+<string name="external_app_restricted_access_error">"Chromella ei ole pyydetyn resurssin käyttöoikeutta."</string>
+<string name="blocked_ads_prompt_title">"Mainokset estetty"</string>
+<string name="video_call_notification_text_2">"Videotuloa käytetään"</string>
+<string name="audio_call_notification_text_2">"Äänituloa käytetään"</string>
+<string name="video_audio_call_notification_text_2">"Ääni- ja videotuloa käytetään"</string>
+</resources>

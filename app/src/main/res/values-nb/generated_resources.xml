@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Fortsett"</string>
+<string name="search_or_type_web_address">"Skriv inn søkeord eller en nettadresse"</string>
+<string name="options_homepage_title">"Startside"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome-synkronisering"</string>
+<string name="sync_confirmation_chrome_sync_message">"Bokmerkene, loggoppføringene, passordene og de andre innstillingene dine blir synkronisert med Google-kontoen din, slik at du kan bruke dem på alle enhetene dine."</string>
+<string name="sync_confirmation_personalize_services_title">"Tilpass Google-tjenester"</string>
+<string name="sync_confirmation_personalize_services_body">"Google kan bruke nettlesingsloggen din for å gi Søk, annonser og andre Google-tjenester et personlig preg"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google kan bruke nettlesingsloggen din for å gi Søk og andre Google-tjenester et personlig preg"</string>
+<string name="external_app_leave_incognito_warning">"Dette nettstedet er i ferd med å dele informasjon med en app utenfor inkognitomodus."</string>
+<string name="external_app_leave_incognito_warning_title">"Vil du avslutte inkognitomodus?"</string>
+<string name="external_app_leave_incognito_stay">"Bli her"</string>
+<string name="external_app_leave_incognito_leave">"Gå ut"</string>
+<string name="external_app_restricted_access_error">"Chrome har ikke tilgang til den forespurte ressursen."</string>
+<string name="blocked_ads_prompt_title">"Annonser er blokkert"</string>
+<string name="video_call_notification_text_2">"Åpner videoinngang"</string>
+<string name="audio_call_notification_text_2">"Åpner lydinngang"</string>
+<string name="video_audio_call_notification_text_2">"Åpner lyd- og videoinngang"</string>
+</resources>

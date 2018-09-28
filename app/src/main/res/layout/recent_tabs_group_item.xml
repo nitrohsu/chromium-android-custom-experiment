@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2015 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<org.chromium.chrome.browser.ntp.RecentTabsGroupView android:background="?attr/selectableItemBackground" android:id="@+id/recent_tabs_group_view" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  
+
+    
+  <LinearLayout android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:paddingLeft="@dimen/list_item_default_margin">
+    
+
+        
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/device_label" android:layout_height="wrap_content" android:layout_width="match_parent" android:minHeight="24dp" android:singleLine="true" android:textAlignment="viewStart" android:textAppearance="@style/BlackTitle1"/>
+    
+
+        
+    <TextView android:ellipsize="end" android:id="@+id/time_label" android:layout_height="wrap_content" android:layout_width="match_parent" android:textAlignment="viewStart" android:textAppearance="@style/BlackHint2"/>
+    
+    
+  </LinearLayout>
+  
+
+    
+  <ImageView android:id="@+id/expand_collapse_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="16dp" android:layout_width="wrap_content" tools:ignore="ContentDescription"/>
+  
+
+
+</org.chromium.chrome.browser.ntp.RecentTabsGroupView>

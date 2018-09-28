@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Напред"</string>
+<string name="search_or_type_web_address">"Потърсете нещо или въведете уеб адрес"</string>
+<string name="options_homepage_title">"Начална страница"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Синхронизиране в Chrome"</string>
+<string name="sync_confirmation_chrome_sync_message">"Вашите отметки, история, пароли и други настройки ще се синхронизират с профила ви в Google, за да можете да ги използвате на всичките си устройства"</string>
+<string name="sync_confirmation_personalize_services_title">"Персонализиране на услугите на Google"</string>
+<string name="sync_confirmation_personalize_services_body">"Възможно е да използваме историята ви на сърфиране, за да персонализираме търсенето, рекламите и други услуги на Google"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Възможно е да използваме историята ви на сърфиране, за да персонализираме търсенето и други услуги на Google"</string>
+<string name="external_app_leave_incognito_warning">"Този сайт е напът да сподели информация с приложение, което не е в режим „инкогнито“."</string>
+<string name="external_app_leave_incognito_warning_title">"Излизане от режим „инкогнито“?"</string>
+<string name="external_app_leave_incognito_stay">"Оставане"</string>
+<string name="external_app_leave_incognito_leave">"Излизане"</string>
+<string name="external_app_restricted_access_error">"Chrome няма достъп до заявения ресурс."</string>
+<string name="blocked_ads_prompt_title">"Рекламите са блокирани"</string>
+<string name="video_call_notification_text_2">"Осъществява се достъп до видеовхода"</string>
+<string name="audio_call_notification_text_2">"Осъществява се достъп до аудиовхода"</string>
+<string name="video_audio_call_notification_text_2">"Осъществява се достъп до аудио- и видеовхода"</string>
+</resources>

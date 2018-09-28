@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<FrameLayout android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_dialog_section_small_spacing" android:layout_marginTop="@dimen/editor_dialog_section_small_spacing" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  
+
+    
+  <org.chromium.chrome.browser.widget.CompatibilityTextInputLayout android:id="@+id/text_input_layout" android:layout_height="wrap_content" android:layout_width="match_parent">
+    
+
+        
+    <AutoCompleteTextView android:id="@+id/text_view" android:imeOptions="flagNoExtractUi" android:layout_height="wrap_content" android:layout_width="match_parent" android:singleLine="true"/>
+    
+    
+  </org.chromium.chrome.browser.widget.CompatibilityTextInputLayout>
+  
+
+    
+  <LinearLayout android:id="@+id/icons_layer" android:layout_gravity="end" android:layout_height="48dp" android:layout_width="wrap_content" android:orientation="horizontal">
+    
+
+        
+    <ImageView android:adjustViewBounds="true" android:clickable="false" android:id="@+id/value_icon" android:layout_gravity="center_vertical" android:layout_height="24dp" android:layout_marginLeft="8dp" android:layout_width="wrap_content" android:visibility="gone" tools:ignore="ContentDescription"/>
+    
+
+        
+    <ImageView android:id="@+id/action_icon" android:layout_height="48dp" android:layout_width="48dp" android:padding="12dp" android:visibility="gone" tools:ignore="ContentDescription"/>
+    
+    
+  </LinearLayout>
+  
+
+</FrameLayout>

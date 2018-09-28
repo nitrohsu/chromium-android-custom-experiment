@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Devam Et"</string>
+<string name="search_or_type_web_address">"Web adresini arayın veya yazın"</string>
+<string name="options_homepage_title">"Ana sayfa"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome Senkronizasyonu"</string>
+<string name="sync_confirmation_chrome_sync_message">"Yer işaretleriniz, geçmişiniz, şifreleriniz ve diğer ayarlarınız tüm cihazlarınızda kullanabilmeniz için Google Hesabınızla senkronize edilecek"</string>
+<string name="sync_confirmation_personalize_services_title">"Google hizmetlerini kişiselleştirme"</string>
+<string name="sync_confirmation_personalize_services_body">"Google; Arama, reklamlar ve diğer Google hizmetlerini kişiselleştirmek için tarama geçmişinizi kullanabilir"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google, Arama ve diğer Google hizmetlerini kişiselleştirmek için tarama geçmişinizi kullanabilir"</string>
+<string name="external_app_leave_incognito_warning">"Bu site, gizli mod dışında bir uygulama ile bilgi paylaşımında bulunmak üzere."</string>
+<string name="external_app_leave_incognito_warning_title">"Gizli moddan çıkılsın mı?"</string>
+<string name="external_app_leave_incognito_stay">"Kal"</string>
+<string name="external_app_leave_incognito_leave">"Çık"</string>
+<string name="external_app_restricted_access_error">"Chrome, istenen kaynağa erişemiyor."</string>
+<string name="blocked_ads_prompt_title">"Reklamlar engellendi"</string>
+<string name="video_call_notification_text_2">"Video girişine erişiliyor"</string>
+<string name="audio_call_notification_text_2">"Ses girişine erişiliyor"</string>
+<string name="video_audio_call_notification_text_2">"Ses ve video girişlerine erişiliyor"</string>
+</resources>

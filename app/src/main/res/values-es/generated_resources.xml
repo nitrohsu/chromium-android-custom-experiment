@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Continuar"</string>
+<string name="search_or_type_web_address">"Busca o escribe una dirección web"</string>
+<string name="options_homepage_title">"Página de inicio"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Sincronización de Chrome"</string>
+<string name="sync_confirmation_chrome_sync_message">"Tus marcadores, historial, contraseñas y otros ajustes se sincronizarán con tu cuenta de Google para que puedas utilizarlos en todos tus dispositivos"</string>
+<string name="sync_confirmation_personalize_services_title">"Personalizar los servicios de Google"</string>
+<string name="sync_confirmation_personalize_services_body">"Google puede utilizar tu historial de navegación para personalizar la Búsqueda, los anuncios y otros servicios de Google"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google puede utilizar tu historial de navegación para personalizar la Búsqueda y otros servicios de Google"</string>
+<string name="external_app_leave_incognito_warning">"Este sitio web va a compartir información con una aplicación con la que no se utilizará el modo de incógnito."</string>
+<string name="external_app_leave_incognito_warning_title">"¿Salir del modo de incógnito?"</string>
+<string name="external_app_leave_incognito_stay">"Seguir aquí"</string>
+<string name="external_app_leave_incognito_leave">"Salir"</string>
+<string name="external_app_restricted_access_error">"Chrome no tiene acceso al recurso solicitado."</string>
+<string name="blocked_ads_prompt_title">"Anuncios bloqueados"</string>
+<string name="video_call_notification_text_2">"Accediendo a la entrada de vídeo"</string>
+<string name="audio_call_notification_text_2">"Accediendo a la entrada de audio"</string>
+<string name="video_audio_call_notification_text_2">"Accediendo a la entrada de vídeo y audio"</string>
+</resources>

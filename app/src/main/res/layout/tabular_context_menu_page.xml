@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<LinearLayout android:id="@+id/content_layer" android:layout_height="match_parent" android:layout_width="match_parent" android:minWidth="280dp" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  
+    
+  <LinearLayout android:id="@+id/context_header_layout" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:paddingLeft="20dp" android:paddingRight="20dp" tools:ignore="UseCompoundDrawables">
+    
+        
+    <!-- Cannot use a compound drawable since it does not allow a change in maxHeight and
+             background to the image. -->
+    
+        
+    <ImageView android:adjustViewBounds="true" android:foreground="@drawable/tabular_context_menu_image_border" android:id="@+id/context_header_image" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_marginTop="@dimen/context_menu_image_vertical_margin" android:layout_width="wrap_content" android:maxHeight="@dimen/context_menu_header_image_max_height" android:minHeight="@dimen/context_menu_header_image_min_size" android:minWidth="@dimen/context_menu_header_image_min_size" android:visibility="gone" tools:ignore="ContentDescription"/>
+    
+        
+    <TextView android:ellipsize="end" android:gravity="center" android:id="@+id/context_header_text" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginTop="10dp" android:layout_width="match_parent" android:maxLines="1" android:textSize="13sp" android:textStyle="bold" android:visibility="gone"/>
+    
+    
+  </LinearLayout>
+  
+    
+  <View android:background="#1e000000" android:id="@+id/context_divider" android:layout_height="1dp" android:layout_width="match_parent"/>
+  
+    
+  <ListView android:divider="@null" android:dividerHeight="0dp" android:id="@+id/selectable_items" android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent" android:minHeight="@dimen/context_menu_selectable_items_min_size" android:paddingBottom="8dp" android:paddingTop="8dp"/>
+  
+
+</LinearLayout>

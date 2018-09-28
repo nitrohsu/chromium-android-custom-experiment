@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file.
+-->
+<!-- Layout used to present a set of default search engines to the user. -->
+<LinearLayout android:background="@color/signin_body_background" android:contentDescription="@string/search_engine_dialog_title" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+  
+
+    
+  <FrameLayout android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+    
+
+        
+    <org.chromium.chrome.browser.firstrun.FirstRunChooserView android:fadeScrollbars="false" android:fadingEdgeLength="48dp" android:layout_height="match_parent" android:layout_width="match_parent" android:requiresFadingEdge="vertical">
+      
+
+            
+      <LinearLayout android:id="@+id/scrolling_content" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+        
+
+                
+        <!-- The layout_width/layout_height is set to 16/9 dynamically in Java -->
+        
+                
+        <TextView android:background="@color/signin_head_background" android:gravity="bottom" android:id="@+id/chooser_title" android:importantForAccessibility="no" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="@dimen/signin_chooser_padding" android:paddingLeft="@dimen/signin_chooser_padding" android:paddingRight="@dimen/signin_chooser_padding" android:text="@string/search_engine_dialog_title" android:textAppearance="@style/BlackHeadline1"/>
+        
+
+                
+        <View style="@style/Divider"/>
+        
+
+                
+        <org.chromium.chrome.browser.widget.RadioButtonLayout android:id="@+id/default_search_engine_dialog_options" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="@dimen/signin_chooser_padding" android:layout_marginTop="12dp" android:layout_width="match_parent"/>
+        
+            
+      </LinearLayout>
+      
+        
+    </org.chromium.chrome.browser.firstrun.FirstRunChooserView>
+    
+    
+  </FrameLayout>
+  
+
+    
+  <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="@dimen/signin_chooser_padding" android:text="@string/search_engine_dialog_footer" android:textColor="@color/descriptive_text_color" android:textSize="@dimen/text_size_medium"/>
+  
+
+    
+  <!--suppress ButtonStyle -->
+  
+    
+  <org.chromium.ui.widget.ButtonCompat android:id="@+id/button_primary" android:layout_gravity="end" android:layout_height="36dp" android:layout_marginBottom="16dp" android:layout_marginLeft="16dp" android:layout_marginRight="22dp" android:layout_width="wrap_content" android:paddingLeft="@dimen/fre_button_padding" android:paddingRight="@dimen/fre_button_padding" android:text="@string/ok" android:textAllCaps="true" android:textColor="@android:color/white" android:textSize="14sp" app:buttonColor="@color/light_active_color" app:buttonRaised="false"/>
+  
+
+
+</LinearLayout>

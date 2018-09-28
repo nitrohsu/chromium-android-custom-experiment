@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Continua"</string>
+<string name="search_or_type_web_address">"Cerca o digita un indirizzo web"</string>
+<string name="options_homepage_title">"Pagina iniziale"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Sincronizzazione Google Chrome"</string>
+<string name="sync_confirmation_chrome_sync_message">"I tuoi preferiti, la cronologia, le password e altre impostazioni verranno sincronizzati con il tuo account Google per consentirti di utilizzarli su tutti i tuoi dispositivi"</string>
+<string name="sync_confirmation_personalize_services_title">"Personalizza i servizi Google"</string>
+<string name="sync_confirmation_personalize_services_body">"Google può utilizzare la tua cronologia di navigazione per personalizzare la Ricerca, gli annunci e altri servizi Google."</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google può utilizzare la tua cronologia di navigazione per personalizzare la Ricerca e altri servizi Google"</string>
+<string name="external_app_leave_incognito_warning">"Questo sito sta per condividere informazioni con un\'app esterna alla modalità di navigazione in incognito."</string>
+<string name="external_app_leave_incognito_warning_title">"Uscire da modalità in incognito?"</string>
+<string name="external_app_leave_incognito_stay">"Rimani"</string>
+<string name="external_app_leave_incognito_leave">"Esci"</string>
+<string name="external_app_restricted_access_error">"Chrome non ha accesso alla risorsa richiesta."</string>
+<string name="blocked_ads_prompt_title">"Annunci bloccati"</string>
+<string name="video_call_notification_text_2">"Accesso all\'input video in corso"</string>
+<string name="audio_call_notification_text_2">"Accesso all\'input audio in corso"</string>
+<string name="video_audio_call_notification_text_2">"Accesso all\'input audio e video in corso"</string>
+</resources>

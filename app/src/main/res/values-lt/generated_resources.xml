@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Tęsti"</string>
+<string name="search_or_type_web_address">"Iešk. arba įveskite žiniatinklio adr."</string>
+<string name="options_homepage_title">"Pagrindinis puslapis"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome Sync"</string>
+<string name="sync_confirmation_chrome_sync_message">"Žymės, istorija, slaptažodžiai ir kiti nustatymai bus sinchronizuojami su „Google“ paskyra, kad galėtumėte juos naudoti visuose įrenginiuose"</string>
+<string name="sync_confirmation_personalize_services_title">"„Google“ paslaugų suasmeninimas"</string>
+<string name="sync_confirmation_personalize_services_body">"„Google“ gali naudoti jūsų naršymo istoriją, kad suasmenintų Paiešką, skelbimus ir kitas „Google“ paslaugas"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"„Google“ gali naudoti jūsų naršymo istoriją, kad suasmenintų Paiešką ir kitas „Google“ paslaugas"</string>
+<string name="external_app_leave_incognito_warning">"Šioje svetainėje ketinama bendrinti informaciją su programa ne inkognito režimu."</string>
+<string name="external_app_leave_incognito_warning_title">"Išjungti inkognito režimą?"</string>
+<string name="external_app_leave_incognito_stay">"Likti"</string>
+<string name="external_app_leave_incognito_leave">"Išeiti"</string>
+<string name="external_app_restricted_access_error">"„Chrome“ negali pasiekti pageidaujamo ištekliaus."</string>
+<string name="blocked_ads_prompt_title">"Skelbimai užblokuoti"</string>
+<string name="video_call_notification_text_2">"Pasiekiama vaizdo įrašų įvestis"</string>
+<string name="audio_call_notification_text_2">"Pasiekiama garso įrašų įvestis"</string>
+<string name="video_audio_call_notification_text_2">"Pasiekiama garso ir vaizdo įrašų įvestis"</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<org.chromium.chrome.browser.preferences.datareduction.DataReductionMainMenuItem android:id="@+id/data_reduction_menu_item" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+  
+
+    
+  <View style="@style/Divider"/>
+  
+
+    
+  <FrameLayout android:layout_gravity="start" android:layout_height="wrap_content" android:layout_marginTop="@dimen/divider_height" android:layout_width="match_parent" android:paddingBottom="12dp" android:paddingTop="12dp" style="@style/AppMenuItem">
+    
+
+        
+    <ImageView android:contentDescription="@string/data_reduction_title" android:id="@+id/chart_icon" android:layout_gravity="start|center_vertical" android:layout_height="match_parent" android:layout_width="@dimen/data_reduction_main_menu_icon_width" android:src="@drawable/data_reduction_main_menu_icon"/>
+    
+
+        
+    <LinearLayout android:layout_height="match_parent" android:layout_marginLeft="@dimen/data_reduction_main_menu_icon_width" android:layout_width="wrap_content" android:orientation="vertical" android:paddingLeft="16dp">
+      
+
+            
+      <TextView android:id="@+id/menu_item_text" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="@style/RobotoMediumStyle" android:textSize="14sp"/>
+      
+
+            
+      <TextView android:id="@+id/menu_item_summary" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/descriptive_text_color" android:textSize="14sp"/>
+      
+        
+    </LinearLayout>
+    
+
+    
+  </FrameLayout>
+  
+
+
+</org.chromium.chrome.browser.preferences.datareduction.DataReductionMainMenuItem>

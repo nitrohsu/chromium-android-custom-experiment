@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Настави"</string>
+<string name="search_or_type_web_address">"Претражите или унесите веб-адресу"</string>
+<string name="options_homepage_title">"Почетна страница"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Синхронизација Chrome прегледача"</string>
+<string name="sync_confirmation_chrome_sync_message">"Обележивачи, историја, лозинке и друга подешавања ће се синхронизовати са Google налогом да бисте могли да их користите на свим уређајима"</string>
+<string name="sync_confirmation_personalize_services_title">"Персонализујте Google услуге"</string>
+<string name="sync_confirmation_personalize_services_body">"Google може да користи историју прегледања за персонализацију Претраге, огласа и других Google услуга"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google може да користи историју прегледања за персонализацију Претраге и других Google услуга"</string>
+<string name="external_app_leave_incognito_warning">"Овај сајт ће делити информације са апликацијом изван режима без архивирања."</string>
+<string name="external_app_leave_incognito_warning_title">"Излазите из режима без архивирања?"</string>
+<string name="external_app_leave_incognito_stay">"Не затварај"</string>
+<string name="external_app_leave_incognito_leave">"Затвори"</string>
+<string name="external_app_restricted_access_error">"Chrome нема приступ захтеваном ресурсу."</string>
+<string name="blocked_ads_prompt_title">"Огласи су блокирани"</string>
+<string name="video_call_notification_text_2">"Приступа се видео улазу"</string>
+<string name="audio_call_notification_text_2">"Приступа се аудио улазу"</string>
+<string name="video_audio_call_notification_text_2">"Приступа се аудио и видео улазу"</string>
+</resources>

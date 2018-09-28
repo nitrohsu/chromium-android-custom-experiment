@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2018 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<TextView android:drawableLeft="@drawable/add_circle_blue" android:drawablePadding="16dp" android:gravity="center_vertical" android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="8dp" android:text="@string/signin_add_account" android:textAppearance="@style/BlackBodyDefault" xmlns:android="http://schemas.android.com/apk/res/android"/>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<org.chromium.chrome.browser.ntp.NewTabPageLayout android:gravity="center" android:id="@+id/ntp_content" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:paddingTop="@dimen/toolbar_height_no_shadow" android:visibility="gone" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+  
+
+    
+  <!-- Search provider logo -->
+  
+    
+  <org.chromium.chrome.browser.ntp.LogoView android:id="@+id/search_provider_logo" android:layout_height="@dimen/ntp_logo_height" android:layout_marginBottom="23dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginTop="26dp" android:layout_width="wrap_content"/>
+  
+
+    
+  <!-- Search box -->
+  
+    
+  <view android:addStatesFromChildren="true" android:background="@drawable/card_single" android:gravity="center_vertical" android:id="@+id/search_box" android:layout_height="@dimen/ntp_search_box_height" android:layout_marginBottom="1dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginTop="0dp" android:layout_width="match_parent" android:orientation="horizontal" android:paddingBottom="3dp" android:paddingLeft="2dp" android:paddingRight="2dp" android:paddingTop="3dp" class="org.chromium.chrome.browser.ntp.NewTabPageLayout$SearchBoxContainerView">
+    
+        
+    <EditText android:background="@null" android:drawableLeft="@drawable/ic_logo_googleg_24dp" android:drawablePadding="@dimen/ntp_search_box_logo_padding" android:ellipsize="end" android:focusable="false" android:focusableInTouchMode="false" android:gravity="center_vertical" android:id="@+id/search_box_text" android:inputType="text" android:layout_height="match_parent" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_weight="1" android:layout_width="0dp" android:singleLine="true" android:textColorHint="@color/search_box_hint" android:textSize="@dimen/location_bar_url_text_size"/>
+    
+        
+    <org.chromium.chrome.browser.widget.TintedImageView android:contentDescription="@string/accessibility_toolbar_btn_mic" android:id="@+id/voice_search_button" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:layout_width="wrap_content" android:src="@drawable/btn_mic" app:chrometint="@color/dark_mode_tint"/>
+    
+    
+  </view>
+  
+
+    
+  <ViewStub android:id="@+id/shortcuts_stub" android:inflatedId="@+id/shortcuts" android:layout="@layout/ntp_shortcuts" android:layout_height="wrap_content" android:layout_width="match_parent"/>
+  
+
+    
+  <!-- Middle spacer -->
+  
+    
+  <View android:id="@+id/ntp_middle_spacer" android:layout_height="0dp" android:layout_weight="0" android:layout_width="0dp" android:visibility="invisible"/>
+  
+
+    
+  <!-- Insertion point of the SiteSectionView, see NewTabPageLayout#insertSiteSection() -->
+  
+
+    
+  <ViewStub android:id="@+id/explore_sites_stub" android:inflatedId="@+id/explore_sites" android:layout="@layout/explore_sites_section" android:layout_height="wrap_content" android:layout_width="match_parent"/>
+  
+
+    
+  <!-- Site suggestion tile grid placeholder -->
+  
+    
+  <ViewStub android:id="@+id/tile_grid_placeholder_stub" android:inflatedId="@+id/tile_grid_placeholder" android:layout="@layout/new_tab_page_tile_grid_placeholder" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="match_parent"/>
+  
+
+    
+  <!-- Spacer for when there is no search provider logo. -->
+  
+    
+  <View android:id="@+id/no_search_logo_spacer" android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent" android:visibility="gone"/>
+  
+
+</org.chromium.chrome.browser.ntp.NewTabPageLayout>

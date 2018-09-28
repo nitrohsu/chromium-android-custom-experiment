@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Continuer"</string>
+<string name="search_or_type_web_address">"Recherchez ou saisissez une adresse Web"</string>
+<string name="options_homepage_title">"Page d\'accueil"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Synchronisation Google Chrome"</string>
+<string name="sync_confirmation_chrome_sync_message">"Vos favoris, votre historique, vos mots de passe et d\'autres paramètres seront synchronisés avec votre compte Google, afin que vous puissiez les utiliser sur tous vos appareils."</string>
+<string name="sync_confirmation_personalize_services_title">"Personnaliser les services Google"</string>
+<string name="sync_confirmation_personalize_services_body">"Google peut utiliser votre historique de navigation pour personnaliser la recherche, les annonces et d\'autres services Google."</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google peut utiliser votre historique de navigation pour personnaliser la recherche et d\'autres services Google."</string>
+<string name="external_app_leave_incognito_warning">"Ce site s\'apprête à partager des informations avec une application en dehors du mode navigation privée."</string>
+<string name="external_app_leave_incognito_warning_title">"Quitter le mode navigation privée ?"</string>
+<string name="external_app_leave_incognito_stay">"Rester"</string>
+<string name="external_app_leave_incognito_leave">"Quitter"</string>
+<string name="external_app_restricted_access_error">"Chrome n\'a pas accès à la ressource demandée."</string>
+<string name="blocked_ads_prompt_title">"Annonces bloquées"</string>
+<string name="video_call_notification_text_2">"Accès à l\'entrée vidéo en cours…"</string>
+<string name="audio_call_notification_text_2">"Accès à l\'entrée audio en cours…"</string>
+<string name="video_audio_call_notification_text_2">"Accès à l\'entrée audio et vidéo en cours…"</string>
+</resources>

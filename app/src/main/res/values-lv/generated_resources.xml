@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Turpināt"</string>
+<string name="search_or_type_web_address">"Meklējiet vai ievadiet tīmekļa adresi"</string>
+<string name="options_homepage_title">"Sākumlapa"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome Sync"</string>
+<string name="sync_confirmation_chrome_sync_message">"Jūsu grāmatzīmes, vēsture, paroles un citi iestatījumi tiks sinhronizēti ar jūsu Google kontu, lai jūs varētu tos izmantot visās savās ierīcēs."</string>
+<string name="sync_confirmation_personalize_services_title">"Google pakalpojumu personalizēšana"</string>
+<string name="sync_confirmation_personalize_services_body">"Google var izmantot jūsu pārlūkošanas vēsturi, lai personalizētu Meklēšanu, reklāmas un citus Google pakalpojumus."</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google var izmantot jūsu pārlūkošanas vēsturi, lai personalizētu Meklēšanu un citus Google pakalpojumus."</string>
+<string name="external_app_leave_incognito_warning">"Šī vietne kopīgos informāciju ar lietotni, kas nav inkognito režīmā."</string>
+<string name="external_app_leave_incognito_warning_title">"Vai iziet no inkognito režīma?"</string>
+<string name="external_app_leave_incognito_stay">"Palikt"</string>
+<string name="external_app_leave_incognito_leave">"Iziet"</string>
+<string name="external_app_restricted_access_error">"Chrome nevar piekļūt pieprasītajam resursam."</string>
+<string name="blocked_ads_prompt_title">"Reklāmu rādīšana bloķēta"</string>
+<string name="video_call_notification_text_2">"Notiek piekļūšana video ievadei"</string>
+<string name="audio_call_notification_text_2">"Notiek piekļūšana audio ievadei"</string>
+<string name="video_audio_call_notification_text_2">"Notiek piekļūšana audio un video ievadei"</string>
+</resources>

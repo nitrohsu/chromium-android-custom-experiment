@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<org.chromium.chrome.browser.widget.BoundedLinearLayout android:gravity="center" android:padding="24dp" app:maxWidthLandscape="312dp" app:maxWidthPortrait="312dp" style="@style/AlertDialogContent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+  
+
+    
+  <ProgressBar android:id="@+id/progress" android:layout_gravity="center_vertical" android:layout_height="32dp" android:layout_width="32dp"/>
+  
+
+    
+  <TextView android:id="@+id/message" android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_width="wrap_content" android:lineSpacingMultiplier="1.4" android:text="@string/signin_gms_updating" android:textSize="14sp"/>
+  
+
+</org.chromium.chrome.browser.widget.BoundedLinearLayout>

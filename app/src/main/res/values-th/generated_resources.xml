@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"ดำเนินการต่อ"</string>
+<string name="search_or_type_web_address">"ค้นหาหรือพิมพ์ที่อยู่เว็บ"</string>
+<string name="options_homepage_title">"หน้าแรก"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"การทำข้อมูลให้ตรงกันของ Chrome"</string>
+<string name="sync_confirmation_chrome_sync_message">"บุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ จะซิงค์กับบัญชี Google เพื่อให้คุณสามารถใช้ข้อมูลเหล่านี้ได้กับอุปกรณ์ทุกเครื่อง"</string>
+<string name="sync_confirmation_personalize_services_title">"ปรับเปลี่ยนบริการ Google ในแบบของคุณ"</string>
+<string name="sync_confirmation_personalize_services_body">"Google อาจใช้ประวัติการท่องเว็บของคุณเพื่อปรับเปลี่ยนการค้นหา โฆษณา และบริการอื่นๆ ของ Google ในแบบของคุณ"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google อาจใช้ประวัติการท่องเว็บของคุณเพื่อปรับเปลี่ยน Search และบริการอื่นๆ ของ Google ในแบบของคุณ"</string>
+<string name="external_app_leave_incognito_warning">"ไซต์นี้กำลังจะแชร์ข้อมูลกับแอปนอกโหมดไม่ระบุตัวตน"</string>
+<string name="external_app_leave_incognito_warning_title">"ออกจากโหมดไม่ระบุตัวตนไหม"</string>
+<string name="external_app_leave_incognito_stay">"อยู่ต่อ"</string>
+<string name="external_app_leave_incognito_leave">"ออก"</string>
+<string name="external_app_restricted_access_error">"Chrome ไม่มีสิทธิ์เข้าถึงทรัพยากรที่ขอ"</string>
+<string name="blocked_ads_prompt_title">"บล็อกโฆษณา"</string>
+<string name="video_call_notification_text_2">"กำลังเข้าถึงอินพุตวิดีโอ"</string>
+<string name="audio_call_notification_text_2">"กำลังเข้าถึงอินพุตเสียง"</string>
+<string name="video_audio_call_notification_text_2">"กำลังเข้าถึงอินพุตเสียงและวิดีโอ"</string>
+</resources>

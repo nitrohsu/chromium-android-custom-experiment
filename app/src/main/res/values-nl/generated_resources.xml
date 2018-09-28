@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Doorgaan"</string>
+<string name="search_or_type_web_address">"Zoek of typ een webadres"</string>
+<string name="options_homepage_title">"Homepage"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome-synchronisatie"</string>
+<string name="sync_confirmation_chrome_sync_message">"Je bladwijzers, geschiedenis, wachtwoorden en andere instellingen worden gesynchroniseerd met je Google-account, zodat je ze op al je apparaten kunt gebruiken"</string>
+<string name="sync_confirmation_personalize_services_title">"Google-services personaliseren"</string>
+<string name="sync_confirmation_personalize_services_body">"Google kan je browsegeschiedenis gebruiken om Google Zoeken, advertenties en andere Google-services te personaliseren"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google kan je browsegeschiedenis gebruiken om Google Zoeken en andere Google-services te personaliseren"</string>
+<string name="external_app_leave_incognito_warning">"Deze site staat op het punt buiten de incognitomodus informatie met een app te delen."</string>
+<string name="external_app_leave_incognito_warning_title">"Incognitomodus verlaten?"</string>
+<string name="external_app_leave_incognito_stay">"Blijven"</string>
+<string name="external_app_leave_incognito_leave">"Verlaten"</string>
+<string name="external_app_restricted_access_error">"Chrome heeft geen toegang tot de gevraagde bron."</string>
+<string name="blocked_ads_prompt_title">"Advertenties geblokkeerd"</string>
+<string name="video_call_notification_text_2">"Video-invoer openen"</string>
+<string name="audio_call_notification_text_2">"Audio-invoer openen"</string>
+<string name="video_audio_call_notification_text_2">"Audio- en video-invoer openen"</string>
+</resources>

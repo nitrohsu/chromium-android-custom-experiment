@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Continuar"</string>
+<string name="search_or_type_web_address">"Pesquisar ou escrever o endereço Web"</string>
+<string name="options_homepage_title">"Página inicial"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Sincronização do Google Chrome"</string>
+<string name="sync_confirmation_chrome_sync_message">"Os marcadores, o histórico, as palavras-passe e outras definições são sincronizados com a sua Conta Google para que os possa utilizar em todos os dispositivos"</string>
+<string name="sync_confirmation_personalize_services_title">"Personalizar os serviços Google"</string>
+<string name="sync_confirmation_personalize_services_body">"A Google pode utilizar o seu histórico de navegação para personalizar a Pesquisa Google, os anúncios e outros serviços Google"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"A Google pode utilizar o seu histórico de navegação para personalizar a Pesquisa Google e outros serviços Google"</string>
+<string name="external_app_leave_incognito_warning">"Este site está prestes a partilhar informações com uma aplicação fora do modo de navegação anónima."</string>
+<string name="external_app_leave_incognito_warning_title">"Sair da navegação anónima?"</string>
+<string name="external_app_leave_incognito_stay">"Ficar"</string>
+<string name="external_app_leave_incognito_leave">"Sair"</string>
+<string name="external_app_restricted_access_error">"O Chrome não tem acesso ao recurso solicitado."</string>
+<string name="blocked_ads_prompt_title">"Anúncios bloqueados"</string>
+<string name="video_call_notification_text_2">"A aceder à entrada de vídeo"</string>
+<string name="audio_call_notification_text_2">"A aceder à entrada de áudio"</string>
+<string name="video_audio_call_notification_text_2">"A aceder à entrada de áudio e de vídeo"</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<LinearLayout android:layout_height="wrap_content" android:layout_marginBottom="@dimen/editor_dialog_section_large_spacing" android:layout_marginLeft="@dimen/pref_autofill_field_horizontal_padding" android:layout_marginRight="@dimen/pref_autofill_field_horizontal_padding" android:layout_marginTop="@dimen/editor_dialog_section_large_spacing" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+  
+
+    
+  <TextView android:id="@+id/label" android:layout_height="wrap_content" android:layout_width="match_parent" android:textAppearance="@style/PreferenceFloatLabelTextAppearance"/>
+  
+
+    
+  <org.chromium.chrome.browser.widget.prefeditor.ExpandableGridView android:columnWidth="@dimen/editable_option_section_logo_width" android:horizontalSpacing="@dimen/editor_dialog_section_small_spacing" android:id="@+id/icons_container" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_dialog_section_small_spacing" android:layout_width="match_parent" android:numColumns="auto_fit" android:stretchMode="none" android:verticalSpacing="@dimen/editor_dialog_section_small_spacing"/>
+  
+
+
+</LinearLayout>

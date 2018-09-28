@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2015 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<org.chromium.chrome.browser.toolbar.CustomTabToolbar android:id="@+id/toolbar" android:layout_height="@dimen/custom_tabs_control_container_height" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+  
+    
+  <ImageButton android:contentDescription="@string/close_tab" android:id="@+id/close_button" android:layout_gravity="start|center_vertical" style="@style/ToolbarButton"/>
+  
+    
+  <FrameLayout android:id="@+id/location_bar_frame_layout" android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:layout_width="match_parent">
+    
+        
+    <org.chromium.chrome.browser.widget.TintedImageButton android:contentDescription="@string/accessibility_toolbar_btn_site_info" android:id="@+id/security_button" android:layout_gravity="center_vertical" android:layout_height="match_parent" android:layout_width="@dimen/location_bar_icon_width" android:scaleType="center" android:visibility="invisible" app:chrometint="@color/dark_mode_tint" style="@style/LocationBarButton"/>
+    
+        
+    <view android:background="@null" android:id="@+id/title_url_container" android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:layout_width="match_parent" class="org.chromium.chrome.browser.toolbar.CustomTabToolbar$InterceptTouchLayout">
+      
+            
+      <TextView android:background="@null" android:ellipsize="end" android:id="@+id/title_bar" android:inputType="none" android:layout_gravity="top" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/custom_tabs_toolbar_vertical_padding" android:layout_width="wrap_content" android:maxLines="1" android:paddingRight="@dimen/toolbar_edge_padding" android:textSize="@dimen/custom_tabs_title_text_size" android:visibility="gone"/>
+      
+            
+      <org.chromium.chrome.browser.omnibox.UrlBar android:background="@null" android:id="@+id/url_bar" android:inputType="none" android:layout_gravity="bottom" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingRight="@dimen/toolbar_edge_padding" android:singleLine="true" android:textSize="@dimen/location_bar_url_text_size"/>
+      
+        
+    </view>
+    
+    
+  </FrameLayout>
+  
+    
+  <LinearLayout android:gravity="center_vertical" android:id="@+id/action_buttons" android:layout_gravity="center_vertical|end" android:layout_height="match_parent" android:layout_marginRight="42dp" android:layout_width="wrap_content" android:orientation="horizontal"/>
+  
+    
+  <org.chromium.chrome.browser.widget.TintedImageButton android:background="@null" android:contentDescription="@string/accessibility_toolbar_btn_menu" android:id="@+id/menu_button" android:layout_gravity="center_vertical|end" android:layout_width="42dp" android:paddingRight="4dp" android:src="@drawable/ic_more_vert_black_24dp" app:chrometint="@color/dark_mode_tint" style="@style/ToolbarButton"/>
+  
+
+</org.chromium.chrome.browser.toolbar.CustomTabToolbar>

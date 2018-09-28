@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Weiter"</string>
+<string name="search_or_type_web_address">"Suchbegriff oder Webadresse eingeben"</string>
+<string name="options_homepage_title">"Startseite"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Google Chrome Sync"</string>
+<string name="sync_confirmation_chrome_sync_message">"Lesezeichen, Verlauf, Passwörter und andere Einstellungen werden mit Ihrem Google-Konto synchronisiert, damit Sie sie auf allen Ihren Geräten nutzen können."</string>
+<string name="sync_confirmation_personalize_services_title">"Google-Dienste personalisieren"</string>
+<string name="sync_confirmation_personalize_services_body">"Mithilfe Ihres Browserverlaufs kann Google die Suche, Werbung und andere Google-Dienste personalisieren"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google kann die Suche und andere Google-Dienste anhand Ihres Browserverlaufs für Sie personalisieren."</string>
+<string name="external_app_leave_incognito_warning">"Diese Website ist im Begriff, Informationen mit einer App außerhalb des Inkognitomodus zu teilen."</string>
+<string name="external_app_leave_incognito_warning_title">"Inkognitomodus deaktivieren?"</string>
+<string name="external_app_leave_incognito_stay">"Bleiben"</string>
+<string name="external_app_leave_incognito_leave">"Verlassen"</string>
+<string name="external_app_restricted_access_error">"Chrome hat keinen Zugriff auf die angeforderte Ressource."</string>
+<string name="blocked_ads_prompt_title">"Werbung blockiert"</string>
+<string name="video_call_notification_text_2">"Zugriff auf Video-Eingang"</string>
+<string name="audio_call_notification_text_2">"Zugriff auf Audio-Eingang"</string>
+<string name="video_audio_call_notification_text_2">"Zugriff auf Audio- und Video-Eingang"</string>
+</resources>

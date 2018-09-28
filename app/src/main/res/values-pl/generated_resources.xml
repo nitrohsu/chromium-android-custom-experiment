@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Dalej"</string>
+<string name="search_or_type_web_address">"Wyszukaj lub wpisz adres internetowy"</string>
+<string name="options_homepage_title">"Strona startowa"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Synchronizacja Chrome"</string>
+<string name="sync_confirmation_chrome_sync_message">"Zakładki, historia, hasła i inne ustawienia zostaną zsynchronizowane z kontem Google, by można było z nich korzystać na dowolnym urządzeniu."</string>
+<string name="sync_confirmation_personalize_services_title">"Dostosowywanie usług Google"</string>
+<string name="sync_confirmation_personalize_services_body">"Google może korzystać z Twojej historii przeglądania, by dostosowywać wyniki wyszukiwania, reklamy i działanie innych usług."</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google może korzystać z Twojej historii przeglądania, by dostosowywać wyniki wyszukiwania i działanie innych usług"</string>
+<string name="external_app_leave_incognito_warning">"Ta strona zamierza udostępnić informacje aplikacji poza trybem incognito."</string>
+<string name="external_app_leave_incognito_warning_title">"Zamknąć tryb incognito?"</string>
+<string name="external_app_leave_incognito_stay">"Zostań"</string>
+<string name="external_app_leave_incognito_leave">"Wyjdź"</string>
+<string name="external_app_restricted_access_error">"Chrome nie ma dostępu do żądanego zasobu."</string>
+<string name="blocked_ads_prompt_title">"Reklamy zostały zablokowane"</string>
+<string name="video_call_notification_text_2">"Otwieram wejście wideo"</string>
+<string name="audio_call_notification_text_2">"Otwieram wejście audio"</string>
+<string name="video_audio_call_notification_text_2">"Otwieram wejście audio i wideo"</string>
+</resources>

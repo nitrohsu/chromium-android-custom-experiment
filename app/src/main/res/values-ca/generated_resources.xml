@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Continua"</string>
+<string name="search_or_type_web_address">"Cerca o escriu l\'adreça web"</string>
+<string name="options_homepage_title">"Pàgina d\'inici"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Sincronització de Google Chrome"</string>
+<string name="sync_confirmation_chrome_sync_message">"Les adreces d\'interès, l\'historial, les contrasenyes i altres opcions de configuració se sincronitzaran amb el teu compte de Google, perquè els puguis utilitzar en tots els dispositius"</string>
+<string name="sync_confirmation_personalize_services_title">"Personalitzeu els serveis de Google"</string>
+<string name="sync_confirmation_personalize_services_body">"És possible que Google utilitzi el vostre historial de navegació per personalitzar la Cerca, els anuncis i altres serveis de Google"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"És possible que Google utilitzi el vostre historial de navegació per personalitzar la Cerca i altres serveis de Google"</string>
+<string name="external_app_leave_incognito_warning">"Aquest lloc està a punt de compartir informació amb una aplicació fora del mode d\'incògnit."</string>
+<string name="external_app_leave_incognito_warning_title">"Vols sortir del mode d\'incògnit?"</string>
+<string name="external_app_leave_incognito_stay">"No surtis"</string>
+<string name="external_app_leave_incognito_leave">"Surt"</string>
+<string name="external_app_restricted_access_error">"Chrome no té accés al recurs sol·licitat."</string>
+<string name="blocked_ads_prompt_title">"Anuncis bloquejats"</string>
+<string name="video_call_notification_text_2">"S\'està accedint a l\'entrada de vídeo"</string>
+<string name="audio_call_notification_text_2">"S\'està accedint a l\'entrada d\'àudio"</string>
+<string name="video_audio_call_notification_text_2">"S\'està accedint a l\'entrada d\'àudio i de vídeo"</string>
+</resources>

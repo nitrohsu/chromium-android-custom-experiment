@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<org.chromium.chrome.browser.ntp.IncognitoNewTabPageViewMD android:id="@+id/ntp_content" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  
+
+    
+  <org.chromium.chrome.browser.ntp.NewTabPageScrollView android:background="@color/ntp_bg_incognito" android:contentDescription="@string/accessibility_new_incognito_tab_page" android:fadingEdgeLength="9dp" android:fillViewport="false" android:focusable="true" android:focusableInTouchMode="true" android:id="@+id/ntp_scrollview" android:layout_height="match_parent" android:layout_width="match_parent" android:requiresFadingEdge="vertical">
+    
+
+        
+    <LinearLayout android:gravity="start" android:id="@+id/new_tab_incognito_container" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:paddingLeft="@dimen/md_incognito_ntp_padding_left">
+      
+
+            
+      <ImageView android:id="@+id/new_tab_incognito_icon" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/incognito_splash" tools:ignore="ContentDescription"/>
+      
+
+            
+      <TextView android:id="@+id/new_tab_incognito_title" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/new_tab_otr_title" android:textAppearance="@style/WhiteHeadlineIncognito"/>
+      
+
+            
+      <TextView android:id="@+id/new_tab_incognito_subtitle" android:layout_height="wrap_content" android:layout_width="wrap_content" android:lineSpacingExtra="@dimen/md_incognito_ntp_line_spacing" android:textAppearance="@style/WhiteBodyIncognito"/>
+      
+
+            
+      <LinearLayout android:gravity="start" android:id="@+id/new_tab_incognito_bulletpoints_container" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+        
+
+              
+        <TextView android:id="@+id/new_tab_incognito_features" android:layout_height="wrap_content" android:layout_width="wrap_content" android:lineSpacingExtra="@dimen/md_incognito_ntp_line_spacing" android:textAppearance="@style/WhiteBodyIncognito"/>
+        
+
+              
+        <TextView android:id="@+id/new_tab_incognito_warning" android:layout_height="wrap_content" android:layout_width="wrap_content" android:lineSpacingExtra="@dimen/md_incognito_ntp_line_spacing" android:textAppearance="@style/WhiteBodyIncognito"/>
+        
+
+            
+      </LinearLayout>
+      
+
+            
+      <TextView android:clickable="true" android:focusable="true" android:id="@+id/learn_more" android:layout_height="wrap_content" android:layout_width="wrap_content" android:lineSpacingExtra="@dimen/md_incognito_ntp_line_spacing" android:text="@string/learn_more" android:textAppearance="@style/BlueButtonText1"/>
+      
+
+        
+    </LinearLayout>
+    
+
+    
+  </org.chromium.chrome.browser.ntp.NewTabPageScrollView>
+  
+
+
+</org.chromium.chrome.browser.ntp.IncognitoNewTabPageViewMD>

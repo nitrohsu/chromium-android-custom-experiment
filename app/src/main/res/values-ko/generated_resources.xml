@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"계속"</string>
+<string name="search_or_type_web_address">"웹 주소 검색 또는 입력"</string>
+<string name="options_homepage_title">"홈페이지"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"크롬 동기화"</string>
+<string name="sync_confirmation_chrome_sync_message">"북마크, 방문 기록, 비밀번호, 기타 설정이 Google 계정에 동기화되므로 모든 기기에서 사용할 수 있습니다."</string>
+<string name="sync_confirmation_personalize_services_title">"Google 서비스 맞춤설정"</string>
+<string name="sync_confirmation_personalize_services_body">"Google에서 검색, 광고 및 다른 Google 서비스를 맞춤설정하기 위하여 내 인터넷 사용 기록을 사용할 수 있습니다."</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"검색 및 다른 Google 서비스를 맞춤설정하기 위하여 Google에서 인터넷 사용 기록을 사용할 수 있습니다."</string>
+<string name="external_app_leave_incognito_warning">"이 사이트에서 시크릿 모드 외부의 앱을 사용하여 정보를 공유하려고 합니다."</string>
+<string name="external_app_leave_incognito_warning_title">"시크릿 모드를 종료할까요?"</string>
+<string name="external_app_leave_incognito_stay">"머무르기"</string>
+<string name="external_app_leave_incognito_leave">"나가기"</string>
+<string name="external_app_restricted_access_error">"Chrome에서 요청된 리소스에 액세스할 권한이 없습니다."</string>
+<string name="blocked_ads_prompt_title">"광고 차단됨"</string>
+<string name="video_call_notification_text_2">"비디오 입력 장치에 액세스 중"</string>
+<string name="audio_call_notification_text_2">"오디오 입력 장치에 액세스 중"</string>
+<string name="video_audio_call_notification_text_2">"오디오 및 비디오 입력 장치에 액세스"</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2013 The Chromium Authors. All rights reserved.
+
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file.
+-->
+<FrameLayout android:id="@+id/cast_frame_layout" android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:layout_width="match_parent" android:minHeight="200dp" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  
+    
+  <ImageView android:adjustViewBounds="true" android:alpha="0.7" android:gravity="center" android:id="@+id/cast_background_image" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingLeft="12dp" android:paddingRight="12dp" android:scaleType="fitCenter" tools:ignore="ContentDescription"/>
+  
+    
+  <TextView android:gravity="center" android:id="@+id/cast_screen_title" android:layout_gravity="center" android:layout_height="match_parent" android:layout_width="wrap_content" android:textColor="@color/cast_media_controller_text" android:textSize="14sp" android:textStyle="bold"/>
+  
+    
+  <org.chromium.third_party.android.media.MediaController android:id="@+id/cast_media_controller" android:layout_gravity="bottom" android:layout_height="wrap_content" android:layout_width="match_parent">
+    </org.chromium.third_party.android.media.MediaController>
+  
+
+</FrameLayout>

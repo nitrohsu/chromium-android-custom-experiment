@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2013 The Chromium Authors. All rights reserved.
+
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file.
+-->
+<org.chromium.chrome.browser.tab.SadTabView android:background="#f7f7f7" android:fillViewport="true" android:layout_height="match_parent" android:layout_width="match_parent" android:scrollbarStyle="outsideOverlay" tools:ignore="Overdraw" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+  
+
+    
+  <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:paddingBottom="24dp" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingTop="24dp">
+    
+
+        
+    <ImageView android:id="@+id/sad_tab_image" android:layout_gravity="start" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="26dp" android:src="@drawable/sad_tab" tools:ignore="ContentDescription"/>
+    
+
+        
+    <TextView android:id="@+id/sad_tab_title" android:layout_gravity="start" android:layout_height="wrap_content" android:layout_width="wrap_content" android:lineSpacingMultiplier="1.4" android:paddingBottom="16dp" android:textAppearance="@style/BlackHeadline1"/>
+    
+
+        
+    <TextView android:id="@+id/sad_tab_suggestions_title" android:layout_height="wrap_content" android:layout_width="wrap_content" android:visibility="gone" style="@style/SadTabBodyText"/>
+    
+
+        
+    <TextView android:id="@+id/sad_tab_suggestions" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingLeft="16dp" android:visibility="gone" style="@style/SadTabBodyText"/>
+    
+
+        
+    <org.chromium.ui.widget.TextViewWithClickableSpans android:id="@+id/sad_tab_message" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="22dp" style="@style/SadTabBodyText"/>
+    
+
+        
+    <org.chromium.ui.widget.ButtonCompat android:id="@+id/sad_tab_button" android:layout_gravity="end" android:layout_height="wrap_content" android:layout_width="match_parent" android:minWidth="222dp" android:textColor="#fff" app:buttonColor="@color/light_active_color"/>
+    
+    
+  </LinearLayout>
+  
+
+</org.chromium.chrome.browser.tab.SadTabView>

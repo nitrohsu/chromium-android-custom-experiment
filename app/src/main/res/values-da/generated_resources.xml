@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Fortsæt"</string>
+<string name="search_or_type_web_address">"Søg, eller skriv webadresse"</string>
+<string name="options_homepage_title">"Startside"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome-synkronisering"</string>
+<string name="sync_confirmation_chrome_sync_message">"Dine bogmærker, din historik, dine adgangskoder og andre indstillinger synkroniseres med din Google-konto, så du kan bruge dem på alle dine enheder"</string>
+<string name="sync_confirmation_personalize_services_title">"Tilpas Google-tjenester"</string>
+<string name="sync_confirmation_personalize_services_body">"Google kan bruge din browserhistorik til at personliggøre Søgning, annoncer og andre Google-tjenester."</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google bruger muligvis din browserhistorik til at personliggøre Søgning og andre Google-tjenester"</string>
+<string name="external_app_leave_incognito_warning">"Dette website skal til at dele oplysninger med en app uden for inkognitotilstand."</string>
+<string name="external_app_leave_incognito_warning_title">"Afslut inkognitotilstand?"</string>
+<string name="external_app_leave_incognito_stay">"Bliv her"</string>
+<string name="external_app_leave_incognito_leave">"Forlad"</string>
+<string name="external_app_restricted_access_error">"Chrome har ikke adgang til den ressource, du anmoder om."</string>
+<string name="blocked_ads_prompt_title">"Annoncer er blokeret"</string>
+<string name="video_call_notification_text_2">"Åbner videoinput"</string>
+<string name="audio_call_notification_text_2">"Åbner lydinput"</string>
+<string name="video_audio_call_notification_text_2">"Åbner lyd- og videoinput"</string>
+</resources>

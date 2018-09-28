@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"जारी रखें"</string>
+<string name="search_or_type_web_address">"वेब पता खोजें या लिखें"</string>
+<string name="options_homepage_title">"मुख्यपृष्ठ"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome सिंक"</string>
+<string name="sync_confirmation_chrome_sync_message">"आपके बुकमार्क, इतिहास, पासवर्ड और अन्य सेटिंग को आपके Google खाते में समन्वयित किया जाएगा ताकि आप उनका उपयोग अपने सभी डिवाइस पर कर सकें"</string>
+<string name="sync_confirmation_personalize_services_title">"Google सेवाओं को वैयक्तिकृत करें"</string>
+<string name="sync_confirmation_personalize_services_body">"खोज, विज्ञापन और अन्य Google सेवाओं को वैयक्तिकृत करने के लिए Google आपके ब्राउज़िंग इतिहास का उपयोग कर सकता है"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"खोज और अन्य Google सेवाओं को वैयक्तिकृत करने के लिए Google आपके ब्राउज़िंग इतिहास का उपयोग कर सकता है"</string>
+<string name="external_app_leave_incognito_warning">"यह साइट गुप्त मोड से बाहर के ऐप्लिकेशन के साथ जानकारी शेयर करने वाली है."</string>
+<string name="external_app_leave_incognito_warning_title">"गुप्त मोड छोड़ें?"</string>
+<string name="external_app_leave_incognito_stay">"इसपर रहें"</string>
+<string name="external_app_leave_incognito_leave">"छोड़ें"</string>
+<string name="external_app_restricted_access_error">"Chrome के पास अनुरोधित संसाधन का एक्सेस नहीं है."</string>
+<string name="blocked_ads_prompt_title">"विज्ञापन ब्लॉक हैं"</string>
+<string name="video_call_notification_text_2">"वीडियो इनपुट ऐक्सेस हो रहा है"</string>
+<string name="audio_call_notification_text_2">"ऑडियो इनपुट ऐक्सेस हो रहा है"</string>
+<string name="video_audio_call_notification_text_2">"ऑडियो और वीडियो इनपुट ऐक्सेस हो रहा है"</string>
+</resources>

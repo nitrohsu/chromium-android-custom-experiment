@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:minHeight="?attr/listPreferredItemHeightSmall" android:orientation="horizontal" android:paddingLeft="19dp" android:paddingRight="19dp" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  
+
+    
+  <CheckBox android:clickable="false" android:ellipsize="end" android:focusable="false" android:focusableInTouchMode="false" android:gravity="center_vertical" android:id="@+id/icon_row_checkbox" android:layout_height="match_parent" android:layout_weight="1" android:layout_width="0dp" android:padding="2dp" android:textSize="14sp"/>
+  
+    
+  <ImageView android:gravity="center_vertical" android:id="@+id/icon_row_image" android:importantForAccessibility="no" android:layout_height="match_parent" android:layout_width="wrap_content" android:padding="2dp" android:scaleType="center" tools:ignore="ContentDescription"/>
+  
+
+</LinearLayout>

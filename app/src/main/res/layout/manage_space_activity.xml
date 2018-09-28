@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<ScrollView android:id="@+id/main_scroll_view" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+  
+
+    
+  <LinearLayout android:id="@+id/main_view" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_width="match_parent" android:orientation="vertical" android:paddingBottom="5dp" android:paddingLeft="6dp" android:paddingRight="6dp" android:paddingTop="5dp">
+    
+
+        
+    <!-- ======== 'Unimportant Storage' Info ======== -->
+    
+        
+    <TextView android:id="@+id/unimportant_site_data_description" android:text="@string/storage_management_unimportant_site_data_description" style="@style/ManageSpaceActivityExplanationTextView"/>
+    
+
+        
+    <LinearLayout android:baselineAligned="true" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+      
+
+            
+      <TextView android:id="@+id/unimportant_site_data_size_prefix" android:layout_weight="1" android:layout_width="0dp" android:text="@string/storage_management_unimportant_site_data_size_label" style="@style/ManageSpaceActivitySizeTextView"/>
+      
+
+            
+      <TextView android:id="@+id/unimportant_site_data_storage_size_text" style="@style/ManageSpaceActivitySizeTextView"/>
+      
+        
+    </LinearLayout>
+    
+
+        
+    <Button android:id="@+id/clear_unimportant_site_data_storage" android:text="@string/storage_management_clear_unimportant_site_data_button" style="@style/ManageSpaceActivityButton"/>
+    
+
+
+        
+    <!-- ======== Site Storage Info ======== -->
+    
+        
+    <TextView android:id="@+id/site_data_description" android:text="@string/storage_management_site_data_description" style="@style/ManageSpaceActivityExplanationTextView"/>
+    
+
+        
+    <LinearLayout android:baselineAligned="true" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+      
+
+            
+      <TextView android:id="@+id/site_data_size_prefix" android:layout_weight="1" android:layout_width="0dp" android:text="@string/storage_management_site_data_size_label" style="@style/ManageSpaceActivitySizeTextView"/>
+      
+
+            
+      <TextView android:id="@+id/site_data_storage_size_text" style="@style/ManageSpaceActivitySizeTextView"/>
+      
+        
+    </LinearLayout>
+    
+
+        
+    <Button android:id="@+id/manage_site_data_storage" android:text="@string/storage_management_manage_site_data_button" style="@style/ManageSpaceActivityButton"/>
+    
+
+        
+    <!-- ======== Global storage info ======== -->
+    
+
+        
+    <TextView android:id="@+id/all_storage_description" android:paddingTop="12dp" android:text="@string/storage_management_all_storage_description" style="@style/ManageSpaceActivityExplanationTextView"/>
+    
+
+        
+    <Button android:id="@+id/clear_all_data" android:text="@string/storage_management_clear_all_data_button" style="@style/ManageSpaceActivityButton"/>
+    
+    
+  </LinearLayout>
+  
+
+</ScrollView>

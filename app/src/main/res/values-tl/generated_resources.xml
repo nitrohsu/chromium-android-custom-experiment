@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Magpatuloy"</string>
+<string name="search_or_type_web_address">"Maghanap o mag-type ng web address"</string>
+<string name="options_homepage_title">"Home page"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome Sync"</string>
+<string name="sync_confirmation_chrome_sync_message">"Masi-sync ang iyong mga bookmark, history, mga password at iba pang mga setting sa iyong Google Account upang magamit mo ang mga ito sa lahat ng iyong device"</string>
+<string name="sync_confirmation_personalize_services_title">"I-personalize ang mga serbisyo ng Google"</string>
+<string name="sync_confirmation_personalize_services_body">"Maaaring gamitin ng Google ang iyong history ng pagba-browse upang i-personalize ang Search, mga ad at iba pang mga serbisyo ng Google"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Maaaring gamitin ng Google ang iyong history ng pagba-browse upang ma-personalize ang Search at iba pang mga serbisyo ng Google"</string>
+<string name="external_app_leave_incognito_warning">"Magbabahagi ang site na ito ng impormasyon sa isang app sa labas ng incognito mode."</string>
+<string name="external_app_leave_incognito_warning_title">"Umalis sa incognito mode?"</string>
+<string name="external_app_leave_incognito_stay">"Manatili"</string>
+<string name="external_app_leave_incognito_leave">"Umalis"</string>
+<string name="external_app_restricted_access_error">"Walang access ang Chrome sa hiniling na mapagkukunan."</string>
+<string name="blocked_ads_prompt_title">"Na-block ang mga ad"</string>
+<string name="video_call_notification_text_2">"Ina-access ang input ng video"</string>
+<string name="audio_call_notification_text_2">"Ina-access ang input ng audio"</string>
+<string name="video_audio_call_notification_text_2">"Ina-access ang input ng audio at video"</string>
+</resources>

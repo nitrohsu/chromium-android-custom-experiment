@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2018 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file.
+-->
+<LinearLayout android:background="@drawable/chip_bg" android:gravity="center_vertical" android:layout_height="wrap_content" android:layout_width="wrap_content" android:minHeight="32dp" android:orientation="horizontal" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+  
+    
+  <org.chromium.chrome.browser.widget.TintedImageView android:gravity="center" android:id="@+id/icon" android:layout_height="20dp" android:layout_marginLeft="8dp" android:layout_width="20dp" android:scaleType="fitCenter" app:chrometint="@color/dark_mode_tint"/>
+  
+    
+  <TextView android:gravity="center" android:id="@+id/text" android:layout_height="wrap_content" android:layout_width="wrap_content" android:maxLines="1" android:paddingLeft="@dimen/chip_icon_padding" android:paddingRight="@dimen/chip_no_icon_padding" android:textAlignment="center" android:textAppearance="@style/DownloadHomeChipText"/>
+  
+
+</LinearLayout>

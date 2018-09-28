@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+  
+
+    
+  <!-- TODO(dmurph): Handle small screens where the title, message, and
+         buttons take up the full height and make the list hidden.
+         crbug.com/616535 -->
+  
+    
+  <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="7dip" android:paddingLeft="24dp" android:paddingRight="15dp" android:paddingTop="7dip" android:text="@string/clear_browsing_data_important_dialog_text" style="@style/PreferenceTextAppearanceMedium"/>
+  
+
+    
+  <ListView android:divider="@null" android:dividerHeight="0dp" android:fadeScrollbars="false" android:id="@id/select_dialog_listview" android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent" android:scrollIndicators="top|bottom"/>
+  
+
+</LinearLayout>

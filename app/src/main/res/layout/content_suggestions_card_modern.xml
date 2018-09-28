@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2017 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+<RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" style="@style/SuggestionCardModern" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+  
+
+    
+  <!-- This layout is nested inside another layout so that we can align the thumbnail corners
+         relative to it. The corners are aligned with respect to the whole card, in case the card
+         contents are taller than the thumbnail. -->
+  
+    
+  <RelativeLayout android:id="@+id/card_contents" android:layout_height="wrap_content" android:layout_width="match_parent">
+    
+
+        
+    <org.chromium.chrome.browser.widget.TintedImageView android:id="@+id/article_thumbnail" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_height="@dimen/snippets_thumbnail_size" android:layout_width="@dimen/snippets_thumbnail_size" android:scaleType="centerCrop" android:src="@null" app:chrometint="@color/dark_mode_tint" tools:ignore="ContentDescription" tools:src="@drawable/ic_snippet_thumbnail_placeholder"/>
+    
+
+        
+    <ImageView android:contentDescription="@string/accessibility_suggestion_with_video_badge" android:id="@+id/video_badge" android:layout_alignLeft="@id/article_thumbnail" android:layout_alignTop="@id/article_thumbnail" android:layout_height="@dimen/content_suggestions_card_modern_badge_size" android:layout_marginLeft="@dimen/content_suggestions_card_modern_badge_margin_start" android:layout_marginTop="@dimen/content_suggestions_card_modern_badge_margin_top" android:layout_width="@dimen/content_suggestions_card_modern_badge_size" android:visibility="gone" app:srcCompat="@drawable/ic_play_circle_filled" tools:src="@drawable/ic_play_circle_filled"/>
+    
+
+        
+    <ImageView android:contentDescription="@string/accessibility_ntp_offline_badge" android:id="@+id/offline_icon" android:layout_alignLeft="@id/article_thumbnail" android:layout_alignTop="@id/article_thumbnail" android:layout_height="@dimen/content_suggestions_card_modern_badge_size" android:layout_marginLeft="@dimen/content_suggestions_card_modern_badge_margin_start" android:layout_marginTop="@dimen/content_suggestions_card_modern_badge_margin_top" android:layout_width="@dimen/content_suggestions_card_modern_badge_size" android:visibility="gone" app:srcCompat="@drawable/ic_offline_pin_white" tools:src="@drawable/ic_offline_pin_white"/>
+    
+
+        
+    <LinearLayout android:id="@+id/text_layout" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true" android:layout_height="wrap_content" android:layout_toRightOf="@+id/article_thumbnail" android:layout_width="wrap_content" android:orientation="vertical" android:padding="@dimen/snippets_padding">
+      
+
+            
+      <org.chromium.ui.widget.TextViewWithLeading android:id="@+id/article_headline" android:layout_height="wrap_content" android:layout_width="match_parent" style="@style/SuggestionCardTitleModern" tools:text="Article headline"/>
+      
+
+            
+      <LinearLayout android:id="@+id/publisher_bar" android:layout_height="wrap_content" android:layout_marginTop="@dimen/snippets_publisher_margin_top" android:layout_width="wrap_content" android:orientation="horizontal" tools:ignore="UseCompoundDrawables">
+        
+
+                
+        <!-- The following attributes:
+                     - publisher_bar's android:layout_width="wrap_content"
+                     - article_publisher's android:layout_width="0dp"
+                     - article_publisher's android:layout_weight="1"
+                     - article_publisher's android:ellipsize="end"
+                     - article_age's android:layout_width="wrap_content"
+                     All ensure that when the publisher string is long, it starts to ellipsize
+                     before pushing the article age string and the offline icon off the screen.
+                     See: https://crbug.com/625775 and https://crbug.com/678568 -->
+        
+                
+        <TextView android:drawablePadding="8dp" android:ellipsize="end" android:id="@+id/article_publisher" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" android:maxLines="1" android:singleLine="true" android:textColor="@color/snippets_publisher_name_color" android:textDirection="locale" android:textSize="12sp" tools:text="chromium.org"/>
+        
+                
+        <TextView android:id="@+id/article_age" android:layout_height="wrap_content" android:layout_width="wrap_content" android:maxLines="1" android:textColor="@color/snippets_publisher_name_color" android:textDirection="locale" android:textSize="12sp" tools:text=" - 3 hours ago"/>
+        
+
+                
+        <!-- We can't add this ImageView as a CompoundDrawable to the TextView because we
+                     want to have different paddings between the favicon (which is a compound
+                     drawable on the TextView) and the offline icon. -->
+        
+                
+        <!--  TODO(twellington): Remove this if the simplified NTP ships -->
+        
+                
+        <ImageView android:contentDescription="@string/accessibility_ntp_offline_badge" android:id="@+id/offline_icon_publisher_row" android:layout_height="@dimen/snippets_offline_icon_size" android:layout_marginLeft="6dp" android:layout_width="@dimen/snippets_offline_icon_size" android:src="@drawable/offline_pin_round" android:visibility="gone" tools:tint="@color/black_alpha_54"/>
+        
+            
+      </LinearLayout>
+      
+        
+    </LinearLayout>
+    
+    
+  </RelativeLayout>
+  
+
+    
+  <!-- It would have been nice to use RoundedBitmapDrawable on the thumbnail, but with that you
+         cannot select which corners must be rounded, they are all rounded. -->
+  
+    
+  <ImageView android:id="@+id/corner_top" android:layout_alignParentLeft="true" android:layout_alignTop="@id/card_contents" android:layout_height="@dimen/content_suggestions_card_modern_corner_radius" android:layout_width="@dimen/content_suggestions_card_modern_corner_radius" android:scaleX="@integer/automirror_scale_x" app:srcCompat="@drawable/content_suggestions_card_corner_top" tools:ignore="ContentDescription"/>
+  
+
+    
+  <ImageView android:id="@+id/corner_bottom" android:layout_alignBottom="@id/card_contents" android:layout_alignParentLeft="true" android:layout_height="@dimen/content_suggestions_card_modern_corner_radius" android:layout_width="@dimen/content_suggestions_card_modern_corner_radius" android:scaleX="@integer/automirror_scale_x" app:srcCompat="@drawable/content_suggestions_card_corner_bottom" tools:ignore="ContentDescription"/>
+  
+
+
+</RelativeLayout>

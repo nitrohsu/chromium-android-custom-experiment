@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="infobar_update_permissions_button_text">"Nastavi"</string>
+<string name="search_or_type_web_address">"Potražite ili upišite web-adresu"</string>
+<string name="options_homepage_title">"Početna stranica"</string>
+<string name="autofill_from_google_account">"Google Pay"</string>
+<string name="sync_confirmation_chrome_sync_title">"Chrome sinkronizacija"</string>
+<string name="sync_confirmation_chrome_sync_message">"Vaše oznake, povijest, zaporke i ostale postavke sinkronizirat će se s vašim Google računom kako biste ih mogli upotrebljavati na svim svojim uređajima."</string>
+<string name="sync_confirmation_personalize_services_title">"Prilagođavanje Googleovih usluga"</string>
+<string name="sync_confirmation_personalize_services_body">"Google može upotrebljavati vašu povijest pregledavanja za prilagodbu Pretraživanja, oglasa i drugih Googleovih usluga"</string>
+<string name="sync_confirmation_personalize_services_body_child_account">"Google može upotrebljavati vašu povijest pregledavanja za prilagodbu Pretraživanja i drugih Googleovih usluga."</string>
+<string name="external_app_leave_incognito_warning">"Ova će web-lokacija dijeliti podatke s aplikacijom izvan anonimnog načina."</string>
+<string name="external_app_leave_incognito_warning_title">"Želite li napustiti anonimno?"</string>
+<string name="external_app_leave_incognito_stay">"Ostani"</string>
+<string name="external_app_leave_incognito_leave">"Napusti"</string>
+<string name="external_app_restricted_access_error">"Chrome nema pristup zatraženom resursu."</string>
+<string name="blocked_ads_prompt_title">"Oglasi su blokirani"</string>
+<string name="video_call_notification_text_2">"Pristupanje videoulazu"</string>
+<string name="audio_call_notification_text_2">"Pristupanje audioulazu"</string>
+<string name="video_audio_call_notification_text_2">"Pristupanje audio i videoulazu"</string>
+</resources>
